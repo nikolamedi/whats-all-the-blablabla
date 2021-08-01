@@ -15,7 +15,10 @@ As an example, I analyzed the following events:
 * International Transport Forum's 2021 Summit (May 2021)
 * GIZ Transport and Climate Change Week (June 2021)
 
-Each event consists of several sessions and
+Each event consists of several sessions and all of them focus on transport. They have been selected as all (or nearly all) of the sessions convened have been uploaded and provide automatic transcripts. 
+The first analysis shows the 2017 high-level events on sustainable, low carbon transport during COP23:
+![First Output](output1-cop23.JPG | width=200)
+The word clouds shows that the COP23 Transport Talk Shows focused on people-centered mobility, finance, sustainability and various stakeholders (cities, countries, companies and governments). Three years later, the En Route to COP26 events by SLOCAT and the Transport Decarbonisation Alliance results in a very similar word cloud despite being three years apart:
+![First Output](output2-ERCOP26.JPG | width=200)
 
-![First Output](output1-cop23.JPG)
 
