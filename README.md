@@ -34,4 +34,4 @@ The last analysis is about GIZ's Transport and Climate Change Week 2021. As the 
 
 # Future improvements
 
-I'm still a novie to Python and have a couple of ideas on how to improve it (once I learn better to code). The idea is to allow users to input the YouTube videos that they want to have summarized through a word cloud. It should be accessible through a web app and support work on advocacy.
+I'm still a novice to Python and have a couple of ideas on how to improve it (once I learn better to code). The idea is to allow users to input the YouTube videos that they want to have summarized through a word cloud. It should be accessible through a web app and support work on advocacy.
