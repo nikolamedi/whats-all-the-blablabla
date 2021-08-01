@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -21,17 +15,12 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 from youtube_transcript_api import YouTubeTranscriptApi
 
 
-# In[2]:
-
-
 # Code combines instructions from these following sources:
 # Here how to download captions from YouTube: https://www.geeksforgeeks.org/python-downloading-captions-from-youtube/, also available here: https://github.com/jdepoix/youtube-transcript-api/
 # Word cloud instructions: https://www.datacamp.com/community/tutorials/wordcloud-python
 
 
-# ## Analysis of SLOCAT's COP23 Transport Talk Shows (November 2017)
-
-# In[3]:
+### Analysis of SLOCAT's COP23 Transport Talk Shows (November 2017)
 
 
 # COP23 talk shows
@@ -46,13 +35,7 @@ COP23_6 = YouTubeTranscriptApi.get_transcript("ulPIwhP4QNw")
 COP23_7 = YouTubeTranscriptApi.get_transcript("2Wo1CJCeZ7Q")
 
 
-# In[4]:
-
-
 COP23_transcript = COP23_1 + COP23_2 + COP23_3 + COP23_4 + COP23_5 + COP23_6 + COP23_7
-
-
-# In[5]:
 
 
 COP23_result = str(COP23_transcript)
@@ -61,9 +44,6 @@ COP23_result = COP23_result.replace("'", "")
 
 with open ('COP23.txt', 'w') as file_object:
     file_object.write(COP23_result)
-
-
-# In[6]:
 
 
 # Create stopword list:
@@ -86,9 +66,7 @@ plt.title("Analysis of COP23 Transport Talk Show", fontsize=20)
 plt.show()
 
 
-# ## Analysis of SLOCAT's En Route to COP26 events (December 2020)
-
-# In[7]:
+### Analysis of SLOCAT's En Route to COP26 events (December 2020)
 
 
 # EnRoutetoCOP26 high-level events
@@ -108,14 +86,7 @@ ER_COP26_11 = YouTubeTranscriptApi.get_transcript("PbUNo8Taf-o")
 ER_COP26_12 = YouTubeTranscriptApi.get_transcript("CecyH9F1aUc")
 
 
-# In[8]:
-
-
 COP25_transcript = ER_COP26_1 + ER_COP26_2 + ER_COP26_3 + ER_COP26_4 + ER_COP26_5 + ER_COP26_6 + ER_COP26_7 + ER_COP26_8 + ER_COP26_9 + ER_COP26_10 + ER_COP26_11 + ER_COP26_12
-
-
-# In[9]:
-
 
 COP25_result = str(COP25_transcript)
 
@@ -123,9 +94,6 @@ COP25_result = COP25_result.replace("'", "")
 
 with open ('ER-COP26.txt', 'w') as file_object:
     file_object.write(COP25_result)
-
-
-# In[10]:
 
 
 # Create stopword list:
@@ -149,9 +117,6 @@ plt.show()
 
 
 # ## Analysis of ITF Summit (May 2021)
-
-# In[11]:
-
 
 # ITF Summit
 # Capturing all transcripts from video(s) 
@@ -180,15 +145,7 @@ ITF_21 = YouTubeTranscriptApi.get_transcript("jfZ6ttLSkQ4")
 ITF_22 = YouTubeTranscriptApi.get_transcript("SmBNHaK-ksU")
 ITF_23 = YouTubeTranscriptApi.get_transcript("mf-ZoAOndb4")
 
-
-# In[12]:
-
-
 ITF_transcript = ITF_1 + ITF_2 + ITF_3 + ITF_4 + ITF_5 + ITF_6 + ITF_7 + ITF_8 + ITF_9 + ITF_10 + ITF_11 + ITF_12 + ITF_13 + ITF_14 + ITF_15 + ITF_16 + ITF_17 + ITF_18 + ITF_19 + ITF_20 + ITF_21 + ITF_22 + ITF_23
-
-
-# In[13]:
-
 
 ITF_result = str(ITF_transcript)
 
@@ -196,9 +153,6 @@ ITF_result = ITF_result.replace("'", "")
 
 with open ('ITF.txt', 'w') as file_object:
     file_object.write(ITF_result)
-
-
-# In[14]:
 
 
 # Create stopword list:
@@ -221,9 +175,7 @@ plt.title("Analysis of ITF Summit 2021", fontsize=20)
 plt.show()
 
 
-# ## Analysis of GIZ Transport and Climate Change Week (June 2021)
-
-# In[15]:
+### Analysis of GIZ Transport and Climate Change Week (June 2021)
 
 
 # GIZ TCCW 2021
@@ -249,13 +201,7 @@ TCCW_17 = YouTubeTranscriptApi.get_transcript("5wTx0rhixlU")
 TCCW_18 = YouTubeTranscriptApi.get_transcript("nNUML7pG1zw")
 
 
-# In[16]:
-
-
 TCCW_transcript = TCCW_2 + TCCW_3 + TCCW_4 + TCCW_5 + TCCW_6 + TCCW_7 + TCCW_9 + TCCW_10 + TCCW_11 + TCCW_12 + TCCW_13 + TCCW_14 + TCCW_14 + TCCW_15 + TCCW_16 + TCCW_17 + TCCW_18
-
-
-# In[17]:
 
 
 TCCW_result = str(TCCW_transcript)
@@ -264,9 +210,6 @@ TCCW_result = TCCW_result.replace("'", "")
 
 with open ('TCCW.txt', 'w') as file_object:
     file_object.write(TCCW_result)
-
-
-# In[22]:
 
 
 # Create stopword list:
