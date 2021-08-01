@@ -17,8 +17,18 @@ As an example, I analyzed the following events:
 
 Each event consists of several sessions and all of them focus on transport. They have been selected as all (or nearly all) of the sessions convened have been uploaded and provide automatic transcripts. 
 The first analysis shows the 2017 high-level events on sustainable, low carbon transport during COP23:
-<img src="output1-cop23.JPG" width="250"/>
+<img src="output1-cop23.JPG" width="600"/>
+
 The word clouds shows that the COP23 Transport Talk Shows focused on people-centered mobility, finance, sustainability and various stakeholders (cities, countries, companies and governments). Three years later, the En Route to COP26 events by SLOCAT and the Transport Decarbonisation Alliance results in a very similar word cloud despite being three years apart:
-![](output2-ERCOP26.JPG)
+<img src="output2-ERCOP26.JPG" width="600"/>
+
+The analysis of the next conference, the International Transport Forum Summit 2021, shows that it is less focused on sustainability and climate change. The word cloud highlights public transport, vehicles, transport demand and the COVID-19 pandemic:
+<img src="output3-ITF.JPG" width="600"/>
+
+The last analysis is about GIZ's Transport and Climate Change Week 2021. As the name implies, the focus is on climate change and transport. But in contrast to the two events by SLOCAT, the event seemed to have mentioned electrification (including charging and hydrogen) very often:
+<img src="output4-TCCW.JPG" width="600"/>
 
 
+# Future improvements
+
+I'm still a novie to Python and have a couple of ideas on how to improve it (once I learn better to code). The idea is to allow users to input the YouTube videos that they want to have summarized through a word cloud. It should be accessible through a web app and support work on advocacy.
