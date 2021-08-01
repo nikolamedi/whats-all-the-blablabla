@@ -17,7 +17,7 @@ As an example, I analyzed the following events:
 
 Each event consists of several sessions and all of them focus on transport. They have been selected as all (or nearly all) of the sessions convened have been uploaded and provide automatic transcripts. 
 The first analysis shows the 2017 high-level events on sustainable, low carbon transport during COP23:
-![](output1-cop23.JPG)
+![](output1-cop23.JPG){: width="50%" height="50%"}
 The word clouds shows that the COP23 Transport Talk Shows focused on people-centered mobility, finance, sustainability and various stakeholders (cities, countries, companies and governments). Three years later, the En Route to COP26 events by SLOCAT and the Transport Decarbonisation Alliance results in a very similar word cloud despite being three years apart:
 ![](output2-ERCOP26.JPG)
 
